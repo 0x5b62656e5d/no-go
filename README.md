@@ -47,11 +47,11 @@ Routes:
 
 ## Supported languages:
 
-| ISO 639 language code | Support |
-|-----------------------|---------|
-|          en           |    ✅   |
-|          de           |    ✅   |
-|          zh           |    ✅   |
+|         Language          | ISO 639 language code | Support |
+| ------------------------- | :-------------------: | :-----: |
+|         English           |          en           |    ✅   |
+|          German           |          de           |    ✅   |
+|    Traditional Chinese    |          zh           |    ✅   |
 
 Legend:
 
