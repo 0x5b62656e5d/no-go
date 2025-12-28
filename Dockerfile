@@ -13,9 +13,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o /application .
 FROM scratch
 
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
-
 COPY --from=builder /application /application
-
-EXPOSE 9000
+COPY --from=builder /app/no.json /no.json
 
 CMD ["/application"]
