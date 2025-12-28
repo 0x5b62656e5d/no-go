@@ -1,8 +1,10 @@
 services:
-  backend:
+  no-go:
     build:
       context: ./
       dockerfile: Dockerfile
     environment:
       - PORT=${PORT}
+    ports:
+    - "${PORT:-9000}:${PORT:-9000}"
     restart: unless-stopped
