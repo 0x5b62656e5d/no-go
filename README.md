@@ -31,7 +31,8 @@ Endpoint: `https://no-go.benkou.dev`
 | ISO 639 language code | Support |
 |-----------------------|---------|
 |          en           |    ✅   |
-|          de           |    🟡   |
+|          de           |    ✅   |
+|          zh           |    ✅   |
 
 Legend:
 

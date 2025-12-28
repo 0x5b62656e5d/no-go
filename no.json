@@ -7,5 +7,23 @@
         "That's a bold assumption of my free time.",
         "Let me check… nope, my calendar says “no” indefinitely."
     ],
-    "de": ["Nein."]
+    "de": [
+        "Nein.",
+        "Auf keinen Fall.",
+        "Leider nein.",
+        "Das passt mir gerade gar nicht.",
+        "Ich glaube, das wird nichts.",
+        "Mein Kalender sagt eindeutig nein.",
+        "Danke, aber nein danke."
+    ],
+    "zh": [
+        "不。",
+        "不要。",
+        "不行。",
+        "我不願意做這件事。",
+        "不太想，老實說。",
+        "這不是個好時間。",
+        "我現在有點忙。",
+        "今天不適合做這件事。"
+    ]
 }
