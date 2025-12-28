@@ -6,7 +6,7 @@ Use it to deny access or say no with some seasoning.
 
 ## Usage
 
-Endpoint: `https://no-go.benkou.dev`
+Endpoint: `https://no.benkou.dev`
 
 Routes:
 
