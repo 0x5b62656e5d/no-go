@@ -24,6 +24,9 @@ func main() {
 	app.LoadReasons()
 
 	http.Handle("GET /health", util.RateLimitMiddleware(http.HandlerFunc(routes.HealthCheck)))
+	http.Handle("GET /langs", util.RateLimitMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		routes.Langs(w, r, app)
+	})))
 	http.Handle("GET /", util.RateLimitMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		routes.No(w, r, app)
 	})))
