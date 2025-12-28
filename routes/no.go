@@ -2,7 +2,6 @@ package routes
 
 import (
 	"encoding/json"
-	"log"
 	"main/util"
 	"main/util/types"
 	"math/rand/v2"
@@ -17,7 +16,6 @@ func No(w http.ResponseWriter, r *http.Request, app *util.App) {
 	if query == "" {
 		w.WriteHeader(http.StatusOK)
 
-		log.Print("empty query")
 		json.NewEncoder(w).Encode(types.StandardResponse[types.NoResponse]{
 			Data: types.NoResponse{
 				Lang:   "en",
