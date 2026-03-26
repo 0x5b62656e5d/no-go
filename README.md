@@ -15,7 +15,7 @@ Routes:
 
 ### JSON Structure:
 
-```json
+```jsonc
 // Route: /
 {
     "data": {
@@ -27,7 +27,7 @@ Routes:
     "success": true // Boolean to indicate if the request was successful or not
 }
 ```
-```json
+```jsonc
 // Route: /langs
 {
     "data": [ // List of ISO 639 language codes
